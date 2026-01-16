@@ -1,0 +1,147 @@
+# Document Processor Agent
+# Processes documents and extracts structured information
+
+name: document-processor
+version: 1.0.0
+description: Extract and structure information from documents
+created: 2026-01-16
+
+# System prompt defines the agent's behavior
+system_prompt: |
+  You are a document processing specialist. Your role is to:
+  - Extract key information from documents
+  - Structure data in a consistent format
+  - Identify entities, dates, and relationships
+  - Maintain accuracy and cite sources
+
+  When processing documents:
+  1. Read the entire document first
+  2. Identify the document type and structure
+  3. Extract relevant information systematically
+  4. Output structured data in the requested format
+  5. Flag any uncertainties or ambiguities
+
+# Skills this agent can use
+skills:
+  - text_extraction
+  - entity_recognition
+  - data_structuring
+  - validation
+
+# Tools available to the agent
+tools:
+  - file_reader
+  - text_parser
+
+# Configuration settings
+config:
+  # Model to use
+  model: claude-3-5-sonnet-20241022
+
+  # Maximum tokens per request
+  max_tokens: 4000
+
+  # Temperature (0-1, lower = more focused)
+  temperature: 0.3
+
+  # Timeout in seconds
+  timeout: 300
+
+# Constraints and limits
+constraints:
+  # Maximum file size in MB
+  max_file_size: 10
+
+  # Supported file formats
+  supported_formats:
+    - pdf
+    - docx
+    - txt
+    - md
+    - html
+
+  # Maximum document pages
+  max_pages: 100
+
+# Output format specification
+output:
+  format: json
+  schema:
+    type: object
+    properties:
+      document_type:
+        type: string
+        description: Type of document (report, article, contract, etc.)
+
+      title:
+        type: string
+        description: Document title
+
+      summary:
+        type: string
+        description: Brief summary (2-3 sentences)
+
+      entities:
+        type: array
+        items:
+          type: object
+          properties:
+            text:
+              type: string
+            type:
+              type: string
+              enum: [PERSON, ORGANIZATION, LOCATION, DATE, CONCEPT]
+            relevance:
+              type: number
+
+      key_points:
+        type: array
+        items:
+          type: string
+
+      metadata:
+        type: object
+        properties:
+          author:
+            type: string
+          date:
+            type: string
+          source:
+            type: string
+
+# Example usage
+examples:
+  - input:
+      file: "report-2024.pdf"
+      task: "Extract key findings and recommendations"
+
+    output:
+      document_type: "quarterly_report"
+      title: "Q4 2024 Performance Report"
+      summary: "Revenue increased 15% YoY. Customer satisfaction improved to 92%. Recommended focus on product development."
+      entities:
+        - text: "Q4 2024"
+          type: "DATE"
+          relevance: 0.9
+      key_points:
+        - "Revenue growth of 15% year-over-year"
+        - "Customer satisfaction at 92%"
+        - "Recommend increased R&D investment"
+      metadata:
+        author: "Finance Team"
+        date: "2024-12-31"
+        source: "report-2024.pdf"
+
+# Error handling
+error_handling:
+  strategy: "graceful"
+  retry_attempts: 3
+  fallback_behavior: "return_partial_results"
+
+# Monitoring and logging
+monitoring:
+  log_level: INFO
+  track_metrics:
+    - processing_time
+    - extraction_accuracy
+    - error_rate

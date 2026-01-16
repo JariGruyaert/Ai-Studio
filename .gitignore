@@ -1,0 +1,139 @@
+# AI Studio .gitignore
+
+# ============================================
+# Environment & Secrets
+# ============================================
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# API Keys and Credentials
+**/api_keys.txt
+**/secrets.yaml
+**/credentials.json
+**/service-account.json
+
+# ============================================
+# Data & Databases
+# ============================================
+data/
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+vector_db/
+
+# Pipeline sources (optional - uncomment to ignore)
+# pipelines/sources/*
+# !pipelines/sources/.gitkeep
+
+# ============================================
+# Cache & Temporary Files
+# ============================================
+cache/
+temp/
+tmp/
+*.tmp
+*.cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ============================================
+# Logs
+# ============================================
+logs/
+*.log
+*.log.*
+
+# ============================================
+# Python
+# ============================================
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ============================================
+# Node.js (if using JS automation)
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================================
+# IDE & Editors
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ============================================
+# OS
+# ============================================
+Thumbs.db
+Desktop.ini
+
+# ============================================
+# Project Specific
+# ============================================
+# Processed outputs (optional - uncomment to ignore)
+# pipelines/extraction/output/*
+# !pipelines/extraction/output/.gitkeep
+# pipelines/processing/output/*
+# !pipelines/processing/output/.gitkeep
+
+# Large model files
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Backup files
+*.backup
+*.bak
+*.old
