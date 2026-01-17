@@ -2,41 +2,18 @@
 
 Daily workflow tools: scripts, Raycast AI presets, and terminal commands for productivity.
 
-## 🚀 Quick Start: Knowledge Extraction Workflow
-
-**New!** Extract web content to your knowledge base with one command.
-
-```bash
-# Via command line
-python3 scripts/extract-to-knowledge.py "https://docs.anthropic.com/api" --category claude-docs
-
-# Via Raycast (after setup)
-# Cmd+Space → "Extract URL to Knowledge" → Enter URL
-```
-
-**See:** [WORKFLOW.md](./WORKFLOW.md) for complete documentation and setup instructions.
-
-This workflow demonstrates the modular pipeline pattern used throughout the AI Infrastructure:
-- **Extract** raw content without modification
-- **Process** into clean, structured markdown
-- **Save** to organized knowledge base with metadata
-
----
-
 ## Overview
 
 This directory contains automation tools for:
 - **scripts/** - Python/Bash scripts for repetitive tasks
-- **raycast/** - Raycast AI presets, commands, and workflows
-- **terminal/** - Shell aliases, functions, and commands
+- **terminal/** - Shell aliases, functions, and commands (examples)
 
 ## Directory Structure
 
 ```
 automation/
 ├── scripts/       # General automation scripts
-├── raycast/       # Raycast AI presets and commands
-└── terminal/      # Terminal aliases and functions
+└── terminal/      # Terminal aliases and functions (examples)
 ```
 
 ## Philosophy
@@ -241,11 +218,9 @@ raycast/
 │   ├── summarize.json
 │   ├── explain-code.json
 │   └── generate-tests.json
-├── commands/
-│   ├── quick-search.sh
-│   └── process-clipboard.sh
-└── workflows/
-    └── document-flow.json
+└── commands/
+    ├── quick-search.sh
+    └── process-clipboard.sh
 ```
 
 ### Example: Code Review Preset
