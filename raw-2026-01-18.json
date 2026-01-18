@@ -1,0 +1,118 @@
+{"url":"https:\/\/www.langchain.com\/privacy-policy","text":"Privacy Policy"}
+{"url":"https:\/\/www.blog.langchain.com\/context-engineering-for-agents\/?utm_source=perplexity#main","text":"Skip to content"}
+{"url":"https:\/\/www.blog.langchain.com\/","text":""}
+{"url":"https:\/\/www.langchain.com\/","text":"Website\n"}
+{"url":"https:\/\/docs.langchain.com\/","text":"Docs\n"}
+{"url":"https:\/\/www.blog.langchain.com\/tag\/in-the-loop\/","text":"Harrison's Hot Takes\n"}
+{"url":"https:\/\/smith.langchain.com\/","text":"Try LangSmith\n"}
+{"url":"https:\/\/www.blog.langchain.com\/context-engineering-for-agents\/?utm_source=perplexity#\/portal\/signin","text":"Sign in"}
+{"url":"https:\/\/www.blog.langchain.com\/context-engineering-for-agents\/?utm_source=perplexity#\/portal\/signup","text":"Subscribe"}
+{"url":"https:\/\/youtu.be\/4GiqzUHD5AA?ref=blog.langchain.com","text":"here"}
+{"url":"https:\/\/www.youtube.com\/watch?si=-aKY-x57ILAmWTdw&t=620&v=LCEmiRjPEtQ&feature=youtu.be&ref=blog.langchain.com","text":"new kind of operating system"}
+{"url":"https:\/\/docs.anthropic.com\/en\/docs\/build-with-claude\/context-windows?ref=blog.langchain.com","text":"context window"}
+{"url":"https:\/\/lilianweng.github.io\/posts\/2023-06-23-agent\/?ref=blog.langchain.com","text":"capacity"}
+{"url":"https:\/\/x.com\/karpathy\/status\/1937902205765607626?ref=blog.langchain.com","text":"Karpathy summarizes this well"}
+{"url":"https:\/\/x.com\/dexhorthy\/status\/1933283008863482067?ref=blog.langchain.com","text":"umbrella"}
+{"url":"https:\/\/www.anthropic.com\/engineering\/building-effective-agents?ref=blog.langchain.com","text":"agents"}
+{"url":"https:\/\/platform.openai.com\/docs\/guides\/reasoning?api-mode=responses&ref=blog.langchain.com","text":"reasoning"}
+{"url":"https:\/\/www.anthropic.com\/engineering\/building-effective-agents?ref=blog.langchain.com","text":"tool calling"}
+{"url":"https:\/\/www.anthropic.com\/engineering\/building-effective-agents?ref=blog.langchain.com","text":"Agents"}
+{"url":"https:\/\/www.anthropic.com\/engineering\/building-effective-agents?ref=blog.langchain.com","text":"LLM invocations and tool calls"}
+{"url":"https:\/\/www.blog.langchain.com\/introducing-ambient-agents\/","text":"long-running tasks"}
+{"url":"https:\/\/www.anthropic.com\/engineering\/building-effective-agents?ref=blog.langchain.com","text":"LLM calls and tool calls"}
+{"url":"https:\/\/www.anthropic.com\/engineering\/building-effective-agents?ref=blog.langchain.com","text":" LLM calls and"}
+{"url":"https:\/\/www.anthropic.com\/engineering\/building-effective-agents?ref=blog.langchain.com","text":" tool calls"}
+{"url":"https:\/\/cognition.ai\/blog\/kevin-32b?ref=blog.langchain.com","text":"exceed the size of the context window"}
+{"url":"https:\/\/www.dbreunig.com\/2025\/06\/22\/how-contexts-fail-and-how-to-fix-them.html?ref=blog.langchain.com","text":"nicely outlined"}
+{"url":"https:\/\/www.dbreunig.com\/2025\/06\/22\/how-contexts-fail-and-how-to-fix-them.html?ref=blog.langchain.com#context-poisoning","text":"Context Poisoning: When a hallucination makes it into the context"}
+{"url":"https:\/\/www.dbreunig.com\/2025\/06\/22\/how-contexts-fail-and-how-to-fix-them.html?ref=blog.langchain.com#context-distraction","text":"Context Distraction: When the context overwhelms the training"}
+{"url":"https:\/\/www.dbreunig.com\/2025\/06\/22\/how-contexts-fail-and-how-to-fix-them.html?ref=blog.langchain.com#context-confusion","text":"Context Confusion: When superfluous context influences the response"}
+{"url":"https:\/\/www.dbreunig.com\/2025\/06\/22\/how-contexts-fail-and-how-to-fix-them.html?ref=blog.langchain.com#context-clash","text":"Context Clash: When parts of the context disagree"}
+{"url":"https:\/\/cognition.ai\/blog\/dont-build-multi-agents?ref=blog.langchain.com","text":"Cognition"}
+{"url":"https:\/\/www.anthropic.com\/engineering\/built-multi-agent-research-system?ref=blog.langchain.com","text":"Anthropic"}
+{"url":"https:\/\/www.anthropic.com\/engineering\/claude-think-tool?ref=blog.langchain.com","text":"scratchpad"}
+{"url":"https:\/\/www.anthropic.com\/engineering\/built-multi-agent-research-system?ref=blog.langchain.com","text":"Anthropic’s multi-agent researcher"}
+{"url":"https:\/\/www.anthropic.com\/engineering\/claude-think-tool?ref=blog.langchain.com","text":"tool call"}
+{"url":"https:\/\/github.com\/modelcontextprotocol\/servers\/tree\/main\/src\/filesystem?ref=blog.langchain.com","text":"writes to a file"}
+{"url":"https:\/\/langchain-ai.github.io\/langgraph\/concepts\/low_level\/?ref=blog.langchain.com#state","text":"state object"}
+{"url":"https:\/\/langchain-ai.github.io\/langgraph\/concepts\/persistence\/?ref=blog.langchain.com#threads","text":"thread"}
+{"url":"https:\/\/arxiv.org\/abs\/2303.11366?ref=blog.langchain.com","text":"Reflexion"}
+{"url":"https:\/\/ar5iv.labs.arxiv.org\/html\/2304.03442?ref=blog.langchain.com","text":"Generative Agents"}
+{"url":"https:\/\/help.openai.com\/en\/articles\/8590148-memory-faq?ref=blog.langchain.com","text":"ChatGPT"}
+{"url":"https:\/\/forum.cursor.com\/t\/0-51-memories-feature\/98509?ref=blog.langchain.com","text":"Cursor"}
+{"url":"https:\/\/docs.windsurf.com\/windsurf\/cascade\/memories?ref=blog.langchain.com","text":"Windsurf"}
+{"url":"https:\/\/www.anthropic.com\/engineering\/claude-think-tool?ref=blog.langchain.com","text":"tool"}
+{"url":"https:\/\/langchain-ai.github.io\/langgraph\/concepts\/memory\/?ref=blog.langchain.com#memory-types","text":"episodic"}
+{"url":"https:\/\/arxiv.org\/pdf\/2309.02427?ref=blog.langchain.com","text":"memories"}
+{"url":"https:\/\/langchain-ai.github.io\/langgraph\/concepts\/memory\/?ref=blog.langchain.com#memory-types","text":"procedural"}
+{"url":"https:\/\/arxiv.org\/pdf\/2309.02427?ref=blog.langchain.com","text":"memories"}
+{"url":"https:\/\/langchain-ai.github.io\/langgraph\/concepts\/memory\/?ref=blog.langchain.com#memory-types","text":"semantic"}
+{"url":"https:\/\/arxiv.org\/pdf\/2309.02427?ref=blog.langchain.com","text":"memories"}
+{"url":"http:\/\/claude.md\/?ref=blog.langchain.com","text":"CLAUDE.md"}
+{"url":"https:\/\/docs.cursor.com\/context\/rules?ref=blog.langchain.com","text":"Cursor"}
+{"url":"https:\/\/windsurf.com\/editor\/directory?ref=blog.langchain.com","text":"Windsurf"}
+{"url":"https:\/\/langchain-ai.github.io\/langgraph\/concepts\/memory\/?ref=blog.langchain.com#collection","text":"collection"}
+{"url":"https:\/\/langchain-ai.github.io\/langgraph\/concepts\/memory\/?ref=blog.langchain.com#memory-types","text":"semantic"}
+{"url":"https:\/\/help.openai.com\/en\/articles\/8590148-memory-faq?ref=blog.langchain.com","text":"ChatGPT"}
+{"url":"https:\/\/arxiv.org\/html\/2501.13956v1?ref=blog.langchain.com#:~:text=In%20Zep%2C%20memory%20is%20powered,subgraph%2C%20and%20a%20community%20subgraph","text":"knowledge"}
+{"url":"https:\/\/neo4j.com\/blog\/developer\/graphiti-knowledge-graph-memory\/?ref=blog.langchain.com#:~:text=changes%20since%20updates%20can%20trigger,and%20holistic%20memory%20for%20agentic","text":"graphs"}
+{"url":"https:\/\/simonwillison.net\/2025\/Jun\/6\/six-months-in-llms\/?ref=blog.langchain.com","text":"Simon Willison shared"}
+{"url":"https:\/\/arxiv.org\/abs\/2410.14594?ref=blog.langchain.com","text":" to apply RAG (retrieval augmented generation) to tool descriptions"}
+{"url":"https:\/\/arxiv.org\/abs\/2505.03275?ref=blog.langchain.com","text":"recent papers"}
+{"url":"https:\/\/github.com\/langchain-ai\/rag-from-scratch?ref=blog.langchain.com","text":"RAG"}
+{"url":"https:\/\/x.com\/_mohansolo\/status\/1899630246862966837?ref=blog.langchain.com","text":" can be a central context engineering challenge"}
+{"url":"https:\/\/www.anthropic.com\/engineering\/built-multi-agent-research-system?ref=blog.langchain.com","text":"hundreds of turns"}
+{"url":"https:\/\/docs.anthropic.com\/en\/docs\/claude-code\/costs?ref=blog.langchain.com","text":"auto-compact"}
+{"url":"https:\/\/langchain-ai.github.io\/langgraph\/concepts\/memory\/?ref=blog.langchain.com#manage-short-term-memory","text":"agent trajectory"}
+{"url":"https:\/\/arxiv.org\/pdf\/2308.15022?ref=blog.langchain.com#:~:text=the%20retrieved%20utterances%20capture%20the,based%203","text":"recursive"}
+{"url":"https:\/\/alignment.anthropic.com\/2025\/summarization-for-monitoring\/?ref=blog.langchain.com#:~:text=We%20addressed%20these%20issues%20by,of%20our%20computer%20use%20capability","text":"hierarchical"}
+{"url":"https:\/\/github.com\/langchain-ai\/open_deep_research\/blob\/e5a5160a398a3699857d00d8569cb7fd0ac48a4f\/src\/open_deep_research\/utils.py?ref=blog.langchain.com#L1407","text":"add summarization"}
+{"url":"https:\/\/cognition.ai\/blog\/dont-build-multi-agents?ref=blog.langchain.com#a-theory-of-building-long-running-agents","text":"Cognition"}
+{"url":"https:\/\/cognition.ai\/blog\/dont-build-multi-agents?ref=blog.langchain.com#a-theory-of-building-long-running-agents","text":"Cognition"}
+{"url":"https:\/\/www.dbreunig.com\/2025\/06\/26\/how-to-fix-your-context.html?ref=blog.langchain.com","text":"prune"}
+{"url":"https:\/\/python.langchain.com\/docs\/how_to\/trim_messages\/?ref=blog.langchain.com","text":"older messages"}
+{"url":"https:\/\/arxiv.org\/abs\/2501.16214?ref=blog.langchain.com","text":"Provence"}
+{"url":"https:\/\/github.com\/openai\/swarm?ref=blog.langchain.com","text":"Swarm"}
+{"url":"https:\/\/openai.github.io\/openai-agents-python\/ref\/agent\/?ref=blog.langchain.com","text":"separation of concerns"}
+{"url":"https:\/\/www.anthropic.com\/engineering\/built-multi-agent-research-system?ref=blog.langchain.com","text":"multi-agent researcher"}
+{"url":"https:\/\/www.anthropic.com\/engineering\/built-multi-agent-research-system?ref=blog.langchain.com","text":"15× more tokens"}
+{"url":"https:\/\/www.anthropic.com\/engineering\/built-multi-agent-research-system?ref=blog.langchain.com","text":"prompt engineering"}
+{"url":"https:\/\/huggingface.co\/blog\/open-deep-research?ref=blog.langchain.com#:~:text=From%20building%20,it%20can%20still%20use%20it","text":"deep researcher"}
+{"url":"https:\/\/docs.anthropic.com\/en\/docs\/agents-and-tools\/tool-use\/overview?ref=blog.langchain.com","text":"tool calling APIs"}
+{"url":"https:\/\/huggingface.co\/papers\/2402.01030?ref=blog.langchain.com","text":"CodeAgent"}
+{"url":"https:\/\/e2b.dev\/?ref=blog.langchain.com","text":"sandbox"}
+{"url":"https:\/\/deepwiki.com\/search\/i-am-wondering-if-state-that-i_0e153539-282a-437c-b2b0-d2d68e51b873?ref=blog.langchain.com","text":"in your state and you [use it later]"}
+{"url":"https:\/\/langchain-ai.github.io\/langgraph\/concepts\/low_level\/?ref=blog.langchain.com#state","text":"state object"}
+{"url":"https:\/\/langchain-ai.github.io\/langgraph\/concepts\/low_level\/?ref=blog.langchain.com#schema","text":"schema"}
+{"url":"https:\/\/hamel.dev\/blog\/posts\/evals\/?ref=blog.langchain.com","text":"look at your data"}
+{"url":"https:\/\/docs.smith.langchain.com\/?ref=blog.langchain.com","text":"LangSmith"}
+{"url":"https:\/\/docs.smith.langchain.com\/observability?ref=blog.langchain.com","text":"tracing \/ observability"}
+{"url":"https:\/\/docs.smith.langchain.com\/evaluation\/tutorials\/agents?ref=blog.langchain.com","text":"agent evaluation"}
+{"url":"https:\/\/langchain-ai.github.io\/langgraph\/concepts\/memory\/?ref=blog.langchain.com#short-term-memory","text":"short-term"}
+{"url":"https:\/\/langchain-ai.github.io\/langgraph\/concepts\/memory\/?ref=blog.langchain.com#long-term-memory","text":"long-term memory"}
+{"url":"https:\/\/langchain-ai.github.io\/langgraph\/concepts\/persistence\/?ref=blog.langchain.com","text":"checkpointing"}
+{"url":"https:\/\/langchain-ai.github.io\/langgraph\/concepts\/low_level\/?ref=blog.langchain.com#state","text":"agent state"}
+{"url":"https:\/\/langchain-ai.github.io\/langgraph\/concepts\/memory\/?ref=blog.langchain.com#profile","text":"files"}
+{"url":"https:\/\/langchain-ai.github.io\/langgraph\/concepts\/memory\/?ref=blog.langchain.com#collection","text":"collections"}
+{"url":"https:\/\/langchain-ai.github.io\/langmem\/?ref=blog.langchain.com","text":"LangMem"}
+{"url":"https:\/\/langchain-ai.github.io\/langgraph\/concepts\/low_level\/?ref=blog.langchain.com#state","text":"state"}
+{"url":"https:\/\/langchain-ai.github.io\/langgraph\/cloud\/reference\/cli\/?ref=blog.langchain.com#adding-semantic-search-to-the-store","text":"embedding-based retrieval on a memory collection)."}
+{"url":"https:\/\/www.deeplearning.ai\/short-courses\/long-term-agentic-memory-with-langgraph\/?ref=blog.langchain.com","text":"our Deeplearning.ai course"}
+{"url":"https:\/\/academy.langchain.com\/courses\/ambient-agents?ref=blog.langchain.com","text":"Ambient Agents"}
+{"url":"https:\/\/github.com\/langchain-ai\/langgraph-bigtool?ref=blog.langchain.com","text":"LangGraph Bigtool"}
+{"url":"https:\/\/langchain-ai.github.io\/langgraph\/tutorials\/rag\/langgraph_agentic_rag\/?ref=blog.langchain.com","text":"tutorials and videos"}
+{"url":"https:\/\/www.blog.langchain.com\/how-to-think-about-agent-frameworks\/","text":"is a low-level orchestration framework"}
+{"url":"https:\/\/www.youtube.com\/watch?v=aHCDrAbH_go&ref=blog.langchain.com","text":"lay out your agent as a set of nodes"}
+{"url":"https:\/\/www.blog.langchain.com\/how-to-think-about-agent-frameworks\/","text":"define"}
+{"url":"https:\/\/langchain-ai.github.io\/langgraph\/how-tos\/memory\/add-memory\/?ref=blog.langchain.com#manage-short-term-memory","text":"summarize or trim"}
+{"url":"https:\/\/langchain-ai.github.io\/langgraph\/how-tos\/memory\/add-memory\/?ref=blog.langchain.com#manage-short-term-memory","text":"a few built-in utilities"}
+{"url":"https:\/\/github.com\/langchain-ai\/open_deep_research\/blob\/e5a5160a398a3699857d00d8569cb7fd0ac48a4f\/src\/open_deep_research\/utils.py?ref=blog.langchain.com#L1407","text":"tool calls"}
+{"url":"https:\/\/langchain-ai.github.io\/langgraph\/concepts\/low_level\/?ref=blog.langchain.com#state","text":"state"}
+{"url":"https:\/\/github.com\/jacoblee93\/mini-chat-langchain?tab=readme-ov-file&ref=blog.langchain.com","text":"repo"}
+{"url":"https:\/\/e2b.dev\/?ref=blog.langchain.com","text":"an E2B sandbox"}
+{"url":"https:\/\/www.youtube.com\/watch?v=FBnER2sxt0w&ref=blog.langchain.com","text":"video"}
+{"url":"https:\/\/github.com\/langchain-ai\/langgraph-supervisor-py?ref=blog.langchain.com","text":"supervisor"}
+{"url":"https:\/\/github.com\/langchain-ai\/langgraph-swarm-py?ref=blog.langchain.com","text":"swarm"}
+{"url":"https:\/\/www.youtube.com\/watch?v=4nZl32FwU-o&ref=blog.langchain.com","text":"see"}
+{"url":"https:\/\/www.youtube.com\/watch?v=JeyDrn1dSUQ&ref=blog.langchain.com","text":"these"}
+{"url":"https:\/\/www.youtube.com\/watch?v=B_0TNuYi56w&ref=blog.langchain.com","text":"videos"}
