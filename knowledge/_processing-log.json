@@ -1,0 +1,162 @@
+{
+  "last_updated": "2026-01-18T12:45:49.712910",
+  "total_processed": 22,
+  "successful": 22,
+  "failed": 0,
+  "resources": [
+    {
+      "url": "https://github.com/danielmiessler/Fabric",
+      "status": "completed",
+      "processed_at": "2026-01-18T12:45:25.186353",
+      "output_file": "knowledge/github-repos/github-danielmiesslerfabric-fabric-is-an-open-sour.md",
+      "error": null
+    },
+    {
+      "url": "https://github.com/thunlp/OpenKE",
+      "status": "completed",
+      "processed_at": "2026-01-18T12:45:25.773190",
+      "output_file": "knowledge/github-repos/github-thunlpopenke-an-open-source-package-for-kno.md",
+      "error": null
+    },
+    {
+      "url": "https://github.com/lemonhu/open-entity-relation-extraction",
+      "status": "completed",
+      "processed_at": "2026-01-18T12:45:26.278870",
+      "output_file": "knowledge/github-repos/github-lemonhuopen-entity-relation-extraction-know.md",
+      "error": null
+    },
+    {
+      "url": "https://github.com/whyhow-ai/knowledge-table",
+      "status": "completed",
+      "processed_at": "2026-01-18T12:45:26.913660",
+      "output_file": "knowledge/github-repos/github-whyhow-aiknowledge-table-knowledge-table-is.md",
+      "error": null
+    },
+    {
+      "url": "https://github.com/echohive42/AI-reads-books-page-by-page",
+      "status": "completed",
+      "processed_at": "2026-01-18T12:45:27.421556",
+      "output_file": "knowledge/github-repos/github-echohive42ai-reads-books-page-by-page-ai-re.md",
+      "error": null
+    },
+    {
+      "url": "https://github.com/ashishpatel26/Amazing-Feature-Engineering/blob/master/A%20Short%20Guide%20for%20Feature%20Engineering%20and%20Feature%20Selection.pdf",
+      "status": "completed",
+      "processed_at": "2026-01-18T12:45:28.045331",
+      "output_file": "knowledge/github-repos/amazing-feature-engineeringa-short-guide-for-featu.md",
+      "error": null
+    },
+    {
+      "url": "https://github.com/ashishpatel26/Amazing-Feature-Engineering",
+      "status": "completed",
+      "processed_at": "2026-01-18T12:45:28.767567",
+      "output_file": "knowledge/github-repos/github-ashishpatel26amazing-feature-engineering-fe.md",
+      "error": null
+    },
+    {
+      "url": "https://github.com/OlaProeis/Ferrite",
+      "status": "completed",
+      "processed_at": "2026-01-18T12:45:29.422851",
+      "output_file": "knowledge/github-repos/github-olaproeisferrite-a-fast-lightweight-text-ed.md",
+      "error": null
+    },
+    {
+      "url": "https://github.com/axtonliu/axton-obsidian-visual-skills",
+      "status": "completed",
+      "processed_at": "2026-01-18T12:45:29.927146",
+      "output_file": "knowledge/github-repos/github-axtonliuaxton-obsidian-visual-skills-visual.md",
+      "error": null
+    },
+    {
+      "url": "https://github.com/accomplish-ai/openwork",
+      "status": "completed",
+      "processed_at": "2026-01-18T12:45:30.628675",
+      "output_file": "knowledge/github-repos/github-accomplish-aiopenwork-openwork-is-the-open.md",
+      "error": null
+    },
+    {
+      "url": "https://github.com/CaviraOSS/OpenMemory",
+      "status": "completed",
+      "processed_at": "2026-01-18T12:45:31.290257",
+      "output_file": "knowledge/github-repos/github-caviraossopenmemory-local-persistent-memory.md",
+      "error": null
+    },
+    {
+      "url": "https://github.com/danielmiessler/Fabric",
+      "status": "completed",
+      "processed_at": "2026-01-18T12:45:43.607406",
+      "output_file": "knowledge/github-repos/github-danielmiesslerfabric-fabric-is-an-open-sour-2.md",
+      "error": null
+    },
+    {
+      "url": "https://github.com/thunlp/OpenKE",
+      "status": "completed",
+      "processed_at": "2026-01-18T12:45:44.236442",
+      "output_file": "knowledge/github-repos/github-thunlpopenke-an-open-source-package-for-kno-2.md",
+      "error": null
+    },
+    {
+      "url": "https://github.com/lemonhu/open-entity-relation-extraction",
+      "status": "completed",
+      "processed_at": "2026-01-18T12:45:44.397113",
+      "output_file": "knowledge/github-repos/github-lemonhuopen-entity-relation-extraction-know-2.md",
+      "error": null
+    },
+    {
+      "url": "https://github.com/whyhow-ai/knowledge-table",
+      "status": "completed",
+      "processed_at": "2026-01-18T12:45:45.096649",
+      "output_file": "knowledge/github-repos/github-whyhow-aiknowledge-table-knowledge-table-is-2.md",
+      "error": null
+    },
+    {
+      "url": "https://github.com/echohive42/AI-reads-books-page-by-page",
+      "status": "completed",
+      "processed_at": "2026-01-18T12:45:46.013651",
+      "output_file": "knowledge/github-repos/github-echohive42ai-reads-books-page-by-page-ai-re-2.md",
+      "error": null
+    },
+    {
+      "url": "https://github.com/ashishpatel26/Amazing-Feature-Engineering/blob/master/A%20Short%20Guide%20for%20Feature%20Engineering%20and%20Feature%20Selection.pdf",
+      "status": "completed",
+      "processed_at": "2026-01-18T12:45:46.423063",
+      "output_file": "knowledge/github-repos/amazing-feature-engineeringa-short-guide-for-featu-2.md",
+      "error": null
+    },
+    {
+      "url": "https://github.com/ashishpatel26/Amazing-Feature-Engineering",
+      "status": "completed",
+      "processed_at": "2026-01-18T12:45:47.018399",
+      "output_file": "knowledge/github-repos/github-ashishpatel26amazing-feature-engineering-fe-2.md",
+      "error": null
+    },
+    {
+      "url": "https://github.com/OlaProeis/Ferrite",
+      "status": "completed",
+      "processed_at": "2026-01-18T12:45:47.680241",
+      "output_file": "knowledge/github-repos/github-olaproeisferrite-a-fast-lightweight-text-ed-2.md",
+      "error": null
+    },
+    {
+      "url": "https://github.com/axtonliu/axton-obsidian-visual-skills",
+      "status": "completed",
+      "processed_at": "2026-01-18T12:45:48.315009",
+      "output_file": "knowledge/github-repos/github-axtonliuaxton-obsidian-visual-skills-visual-2.md",
+      "error": null
+    },
+    {
+      "url": "https://github.com/accomplish-ai/openwork",
+      "status": "completed",
+      "processed_at": "2026-01-18T12:45:48.988429",
+      "output_file": "knowledge/github-repos/github-accomplish-aiopenwork-openwork-is-the-open-2.md",
+      "error": null
+    },
+    {
+      "url": "https://github.com/CaviraOSS/OpenMemory",
+      "status": "completed",
+      "processed_at": "2026-01-18T12:45:49.712892",
+      "output_file": "knowledge/github-repos/github-caviraossopenmemory-local-persistent-memory-2.md",
+      "error": null
+    }
+  ]
+}
