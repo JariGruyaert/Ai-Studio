@@ -1,0 +1,12 @@
+# Smart Content Extractor - Phase 1 Dependencies
+
+# Core HTTP & Web
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Future phases will add:
+# - trafilatura (Article extraction)
+# - anthropic (AI enrichment)
+# - PyGithub (GitHub API)
+# - yt-dlp (YouTube extraction)

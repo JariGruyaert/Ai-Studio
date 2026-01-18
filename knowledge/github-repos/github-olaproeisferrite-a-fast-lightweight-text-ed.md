@@ -1,0 +1,1154 @@
+---
+title: "GitHub - OlaProeis/Ferrite: A fast, lightweight text editor for Markdown, JSON, YAML, and TOML files. Built with Rust and egui for a native, responsive experience."
+source: https://github.com/OlaProeis/Ferrite
+type: github-repo
+extracted: 2026-01-18T12:45:29.422448
+domain: github.com
+word_count: 2174
+processing_status: completed
+---
+
+# GitHub - OlaProeis/Ferrite: A fast, lightweight text editor for Markdown, JSON, YAML, and TOML files. Built with Rust and egui for a native, responsive experience.
+
+## Description
+A fast, lightweight text editor for Markdown, JSON, YAML, and TOML files. Built with Rust and egui for a native, responsive experience. - OlaProeis/Ferrite
+
+## Content
+
+OlaProeis
+
+/
+
+Ferrite
+
+Public
+
+Uh oh!
+
+There was an error while loading.
+Please reload this page
+.
+
+Notifications
+
+You must be signed in to change notification settings
+
+Fork
+
+19
+
+Star
+
+793
+
+A fast, lightweight text editor for Markdown, JSON, YAML, and TOML files. Built with Rust and egui for a native, responsive experience.
+
+License
+
+MIT license
+
+793
+
+stars
+
+19
+
+forks
+
+Branches
+
+Tags
+
+Activity
+
+Star
+
+Notifications
+
+You must be signed in to change notification settings
+
+OlaProeis/Ferrite
+
+master
+Branches
+Tags
+Go to file
+Code
+Open more actions menu
+Folders and files
+Name
+Name
+Last commit message
+Last commit date
+Latest commit
+
+History
+46 Commits
+.github
+.github
+
+assets
+assets
+
+docs
+docs
+
+locales
+locales
+
+scripts
+scripts
+
+src
+src
+
+test_md
+test_md
+
+.gitignore
+.gitignore
+
+CHANGELOG.md
+CHANGELOG.md
+
+CONTRIBUTING.md
+CONTRIBUTING.md
+
+Cargo.lock
+Cargo.lock
+
+Cargo.toml
+Cargo.toml
+
+LICENSE
+LICENSE
+
+Makefile
+Makefile
+
+README.md
+README.md
+
+ROADMAP.md
+ROADMAP.md
+
+build.rs
+build.rs
+
+View all files
+Repository files navigation
+Ferrite
+
+A fast, lightweight text editor for Markdown, JSON, YAML, and TOML files. Built with Rust and egui for a native, responsive experience.
+
+⚠️
+
+Platform Note:
+Ferrite has been primarily developed and tested on
+Windows
+. While it should work on Linux and macOS, these platforms have not been extensively tested. If you encounter issues, please
+report them
+.
+
+🛡️ Antivirus False Positives
+
+Some antivirus software (particularly Windows Defender) may flag Ferrite as suspicious.
+This is a false positive.
+Here's why it happens and what we've done about it:
+
+Why This Happens
+
+Live Pipeline feature
+: Ferrite's pipeline feature lets you pipe document content through shell commands (like
+jq
+or
+grep
+). This uses
+cmd.exe /C
+on Windows, which ML-based antivirus detection can mistake for trojan behavior.
+
+Rust compilation patterns
+: Rust binaries can trigger heuristic detections due to their unique compilation characteristics.
+
+What We've Done
+
+Reported to Microsoft
+: We've submitted Ferrite to Microsoft's Security Intelligence portal as a false positive (January 2026).
+
+Adjusted build settings
+: We've modified our release profile to avoid patterns that trigger ML detection (disabled symbol stripping, switched from size to speed optimization).
+
+Open source transparency
+: All code is publicly auditable at
+github.com/OlaProeis/Ferrite
+.
+
+If You're Affected
+
+If Windows Defender quarantines Ferrite:
+
+Verify the source
+: Only download from
+official GitHub releases
+
+Add an exclusion
+: Windows Security → Virus & threat protection → Exclusions → Add the Ferrite executable
+
+Check VirusTotal
+: Upload the file to
+VirusTotal
+- legitimate Ferrite builds should show clean or near-clean results from most scanners
+
+Ferrite does
+NOT
+access passwords, browser data, or make network connections. The application is fully offline and only accesses files you explicitly open.
+
+🤖 AI-Assisted Development
+
+This project is 100% AI-generated code. All Rust code, documentation, and configuration was written by Claude (Anthropic) via
+Cursor
+with MCP tools.
+
+About the AI workflow
+
+My Role
+
+Product direction
+— Deciding what to build and why
+
+Testing
+— Running the app, finding bugs, verifying features
+
+Review
+— Reading generated code, understanding what it does
+
+Orchestration
+— Managing the AI workflow effectively
+
+The Workflow
+
+Idea refinement
+— Discuss concepts with multiple AIs (Claude, Perplexity, Gemini Pro)
+
+PRD creation
+— Generate requirements using
+Task Master
+
+Task execution
+— Claude Opus handles implementation (preferring larger tasks over many subtasks)
+
+Session handover
+— Structured prompts maintain context between sessions
+
+Human review
+— Every handover is reviewed; direction adjustments made as needed
+
+📖
+Full details:
+
+AI Development Workflow
+
+Open Process
+
+The actual prompts and documents used to build Ferrite are public:
+
+Document
+
+Purpose
+
+current-handover-prompt.md
+
+Active session context
+
+ai-workflow/
+
+Full workflow docs, PRDs, historical handovers
+
+handover/
+
+Reusable handover templates
+
+This transparency is intentional — I want others to learn from (and improve upon) this approach.
+
+Screenshots
+
+Raw Editor
+
+Split View
+
+Zen Mode
+
+✨
+v0.2.5.1 Released:
+Multi-encoding file support,
+major memory optimization
+(250MB → 60-80MB idle),
+CPU optimization
+(10% → <1% idle), improved cursor positioning, and more. See
+CHANGELOG.md
+for full details.
+
+📦
+v0.2.5 Highlights:
+Native CSV/TSV viewer with rainbow columns, Mermaid diagram improvements (YAML frontmatter, classDef styling, subgraphs), semantic minimap, i18n with Weblate, split view dual editing, drag & drop images, TOC generation, snippets, and custom fonts.
+
+Features
+
+Core Editing
+
+WYSIWYG Markdown Editing
+- Edit markdown with live preview, click-to-edit formatting, and syntax highlighting
+
+Multi-Format Support
+- Native support for Markdown, JSON, CSV, YAML, and TOML files
+
+Multi-Encoding Support
+- Auto-detect and preserve file encodings (UTF-8, Latin-1, Shift-JIS, Windows-1252, GBK, and more)
+
+Tree Viewer
+- Hierarchical view for JSON/YAML/TOML with inline editing, expand/collapse, and path copying
+
+Find & Replace
+- Search with regex support and match highlighting
+
+Go to Line (Ctrl+G)
+- Quick navigation to specific line number
+
+Undo/Redo
+- Full undo/redo support per tab
+
+View Modes
+
+Split View
+- Side-by-side raw editor and rendered preview with resizable divider; both panes are fully editable
+
+Zen Mode
+- Distraction-free writing with centered text column
+
+Editor Features
+
+Syntax Highlighting
+- Full-file syntax highlighting for 40+ languages (Rust, Python, JavaScript, Go, etc.)
+
+Code Folding
+- Fold detection with gutter indicators (▶/▼) for headings, code blocks, and lists (text hiding deferred to v0.3.0)
+
+Semantic Minimap
+- Navigation panel with clickable header labels, content type indicators, and text density bars (switchable to VS Code-style pixel view)
+
+Bracket Matching
+- Highlight matching brackets
+()[]{}<>
+and emphasis pairs
+**
+
+__
+
+Auto-close Brackets & Quotes
+- Type
+(
+,
+[
+,
+{
+,
+"
+, or
+'
+to get matching pair; selection wrapping supported
+
+Duplicate Line (Ctrl+Shift+D)
+- Duplicate current line or selection
+
+Move Line Up/Down (Alt+↑/↓)
+- Rearrange lines without cut/paste
+
+Smart Paste for Links
+- Select text then paste URL to create
+[text](url)
+markdown link
+
+Drag & Drop Images
+- Drop images into editor to auto-save to
+./assets/
+and insert markdown link
+
+Table of Contents
+- Generate/update TOC from headings with
+<!-- TOC -->
+block (Ctrl+Shift+U)
+
+Snippets
+- Text expansions like
+;date
+→ current date,
+;time
+→ current time, plus custom snippets
+
+Auto-Save
+- Configurable auto-save with temp-file safety
+
+Line Numbers
+- Optional line number gutter
+
+Configurable Line Width
+- Limit text width for readability (80/100/120 or custom)
+
+Custom Font Selection
+- Choose preferred fonts for editor and UI; important for CJK regional glyph preferences
+
+Keyboard Shortcut Customization
+- Rebind shortcuts via settings panel
+
+MermaidJS Diagrams
+
+Native rendering of 11 diagram types directly in the preview:
+
+Flowchart, Sequence, Pie, State, Mindmap
+
+Class, ER, Git Graph, Gantt, Timeline, User Journey
+
+v0.2.5 Mermaid Update:
+Native Mermaid rendering now supports YAML frontmatter, parallel edges (
+A --> B & C
+),
+classDef
+/
+linkStyle
+styling, improved subgraphs, and more. Complex diagrams may still have rendering differences from mermaid.js. See
+ROADMAP.md
+for planned improvements.
+
+CSV/TSV Viewer
+
+Native Table View
+- View CSV and TSV files in a formatted table with fixed-width column alignment
+
+Rainbow Column Coloring
+- Alternating column colors for improved readability
+
+Delimiter Detection
+- Auto-detect comma, tab, semicolon, and pipe separators
+
+Header Row Detection
+- Intelligent detection and highlighting of header rows
+
+Workspace Features
+
+Workspace Mode
+- Open folders with file tree, quick switcher (Ctrl+P), and search-in-files (Ctrl+Shift+F)
+
+Git Integration
+- Visual status indicators (modified, added, untracked, ignored) with auto-refresh on save, focus, and file changes
+
+Session Persistence
+- Restore open tabs, cursor positions, and scroll offsets on restart
+
+Additional Features
+
+Light & Dark Themes
+- Beautiful themes with runtime switching
+
+Document Outline & Statistics
+- Navigate with outline panel; tabbed statistics showing word count, reading time, heading/link/image counts
+
+Export Options
+- Export to HTML with themed styling, or copy as HTML
+
+Formatting Toolbar
+- Quick access to bold, italic, headings, lists, links, and more
+
+Live Pipeline
+- Pipe JSON/YAML content through shell commands (for developers)
+
+Custom Window
+- Borderless window with custom title bar and resize handles
+
+Recent Files & Folders
+- Click filename in status bar to access recently opened files and workspace folders
+
+CJK Paragraph Indentation
+- First-line indentation options for Chinese (2 chars) and Japanese (1 char) writing conventions
+
+Installation
+
+Pre-built Binaries
+
+Download the latest release for your platform from
+GitHub Releases
+.
+
+Platform
+
+Download
+
+Windows
+
+ferrite-windows-x64.zip
+
+Linux
+
+ferrite-editor_amd64.deb
+(recommended) or
+ferrite-linux-x64.tar.gz
+
+macOS (Apple Silicon)
+
+ferrite-macos-arm64.tar.gz
+
+macOS (Intel)
+
+ferrite-macos-x64.tar.gz
+
+Linux Installation Instructions
+
+Debian/Ubuntu/Mint (.deb)
+
+#
+Download the .deb file, then install with:
+
+sudo apt install ./ferrite-editor_amd64.deb
+
+#
+Or using dpkg:
+
+sudo dpkg -i ferrite-editor_amd64.deb
+
+This will:
+
+Install Ferrite to
+/usr/bin/ferrite
+
+Add desktop entry (appears in your app menu)
+
+Register file associations for
+.md
+,
+.json
+,
+.yaml
+,
+.toml
+files
+
+Install icons for the system
+
+Arch Linux (AUR)
+
+Ferrite is available on the
+AUR
+:
+
+Ferrite
+(release package)
+
+Ferrite-bin
+(binary package)
+
+#
+Release package
+
+yay -Sy ferrite
+
+#
+Binary package
+
+yay -Sy ferrite-bin
+
+Other Linux (tar.gz)
+
+tar -xzf ferrite-linux-x64.tar.gz
+./ferrite
+
+Build from Source
+
+Prerequisites
+
+Rust 1.70+
+- Install from
+rustup.rs
+
+Platform-specific dependencies:
+
+Windows:
+
+Visual Studio Build Tools 2019+ with C++ workload
+
+Linux:
+
+#
+Ubuntu/Debian
+
+sudo apt install build-essential pkg-config libgtk-3-dev libxcb-shape0-dev libxcb-xfixes0-dev
+
+#
+Fedora
+
+sudo dnf install gcc pkg-config gtk3-devel libxcb-devel
+
+#
+Arch
+
+sudo pacman -S base-devel pkg-config gtk3 libxcb
+
+macOS:
+
+xcode-select --install
+
+Build
+
+#
+Clone the repository
+
+git clone https://github.com/OlaProeis/Ferrite.git
+
+cd
+Ferrite
+
+#
+Build release version (optimized)
+
+cargo build --release
+
+#
+The binary will be at:
+
+#
+Windows: target/release/ferrite.exe
+
+#
+Linux/macOS: target/release/ferrite
+
+Development Builds:
+Building from the
+main
+branch gives you the latest features before they're officially released. These builds are untested and may contain bugs. For stable versions, download from
+GitHub Releases
+.
+
+Usage
+
+#
+Open a file
+
+ferrite path/to/file.md
+
+#
+Open a folder as workspace
+
+ferrite path/to/folder/
+
+More CLI options
+
+#
+Run from source
+
+cargo run --release
+
+#
+Or run the binary directly
+
+./target/release/ferrite
+
+#
+Open multiple files as tabs
+
+./target/release/ferrite file1.md file2.md
+
+#
+Show version
+
+./target/release/ferrite --version
+
+#
+Show help
+
+./target/release/ferrite --help
+
+See
+docs/cli.md
+for full CLI documentation.
+
+View Modes
+
+Ferrite supports three view modes for Markdown files:
+
+Raw
+- Plain text editing with syntax highlighting
+
+Rendered
+- WYSIWYG editing with rendered markdown
+
+Split
+- Side-by-side raw editor and live preview
+
+Toggle between modes using the toolbar buttons or keyboard shortcuts.
+
+Keyboard Shortcuts
+
+Shortcut
+
+Action
+
+Ctrl+N
+
+New file
+
+Ctrl+O
+
+Open file
+
+Ctrl+S
+
+Save file
+
+Ctrl+W
+
+Close tab
+
+Ctrl+P
+
+Quick file switcher
+
+Ctrl+F
+
+Find
+
+Ctrl+G
+
+Go to line
+
+Ctrl+,
+
+Open settings
+
+All Keyboard Shortcuts
+
+File Operations
+
+Shortcut
+
+Action
+
+Ctrl+N
+
+New file
+
+Ctrl+O
+
+Open file
+
+Ctrl+S
+
+Save file
+
+Ctrl+Shift+S
+
+Save as
+
+Ctrl+W
+
+Close tab
+
+Navigation
+
+Shortcut
+
+Action
+
+Ctrl+Tab
+
+Next tab
+
+Ctrl+Shift+Tab
+
+Previous tab
+
+Ctrl+P
+
+Quick file switcher (workspace)
+
+Ctrl+Shift+F
+
+Search in files (workspace)
+
+Editing
+
+Shortcut
+
+Action
+
+Ctrl+Z
+
+Undo
+
+Ctrl+Y
+/
+Ctrl+Shift+Z
+
+Redo
+
+Ctrl+F
+
+Find
+
+Ctrl+H
+
+Find and replace
+
+Ctrl+G
+
+Go to line
+
+Ctrl+Shift+D
+
+Duplicate line
+
+Alt+↑
+
+Move line up
+
+Alt+↓
+
+Move line down
+
+Ctrl+B
+
+Bold
+
+Ctrl+I
+
+Italic
+
+Ctrl+K
+
+Insert link
+
+View
+
+Shortcut
+
+Action
+
+F11
+
+Toggle fullscreen
+
+Ctrl+,
+
+Open settings
+
+Ctrl+Shift+[
+
+Fold all
+
+Ctrl+Shift+]
+
+Unfold all
+
+Configuration
+
+Access settings via
+Ctrl+,
+or the gear icon. Configure appearance, editor behavior, and file handling.
+
+Configuration details
+
+Settings are stored in platform-specific locations:
+
+Windows:
+
+%APPDATA%\ferrite\
+
+Linux:
+
+~/.config/ferrite/
+
+macOS:
+
+~/Library/Application Support/ferrite/
+
+Workspace settings are stored in
+.ferrite/
+within the workspace folder.
+
+Settings Panel
+
+Appearance:
+Theme, font family, font size, default view mode
+
+Editor:
+Word wrap, line numbers, minimap, bracket matching, code folding, syntax highlighting, auto-close brackets, line width
+
+Files:
+Auto-save, recent files history
+
+Roadmap
+
+See
+ROADMAP.md
+for planned features and known issues.
+
+Contributing
+
+Contributions are welcome! Please see
+CONTRIBUTING.md
+for guidelines.
+
+Help Translate
+
+Ferrite is being translated into multiple languages with help from the community.
+
+Help translate Ferrite on Weblate
+- no coding required!
+
+Quick Start for Contributors
+
+#
+Fork and clone
+
+git clone https://github.com/YOUR_USERNAME/Ferrite.git
+
+cd
+Ferrite
+
+#
+Create a feature branch
+
+git checkout -b feature/your-feature
+
+#
+Make changes, then verify
+
+cargo fmt
+cargo clippy
+cargo
+test
+
+cargo build
+
+#
+Commit and push
+
+git commit -m
+"
+feat: your feature description
+"
+
+git push origin feature/your-feature
+
+Tech Stack
+
+Built with Rust 1.70+, egui/eframe for GUI, comrak for Markdown parsing, and syntect for syntax highlighting.
+
+Full tech stack
+
+Component
+
+Technology
+
+Language
+
+Rust 1.70+
+
+GUI Framework
+
+egui 0.28 + eframe 0.28
+
+Markdown Parser
+
+comrak 0.22
+
+Syntax Highlighting
+
+syntect 5.1
+
+Git Integration
+
+git2 0.19
+
+CLI Parsing
+
+clap 4
+
+File Dialogs
+
+rfd 0.14
+
+Clipboard
+
+arboard 3
+
+File Watching
+
+notify 6
+
+Fuzzy Matching
+
+fuzzy-matcher 0.3
+
+License
+
+This project is licensed under the MIT License - see the
+LICENSE
+file for details.
+
+Acknowledgments
+
+Libraries & Tools
+
+Libraries
+
+egui
+- Immediate mode GUI library for Rust
+
+comrak
+- CommonMark + GFM compatible Markdown parser
+
+syntect
+- Syntax highlighting library
+
+git2
+- libgit2 bindings for Rust
+
+Inter
+and
+JetBrains Mono
+fonts
+
+Development Tools
+
+Claude
+(Anthropic) - AI assistant that wrote the code
+
+Cursor
+- AI-powered code editor
+
+Task Master
+- AI task management for development workflows
+
+If you find Ferrite useful, consider
+supporting its development
+.
+
+About
+
+A fast, lightweight text editor for Markdown, JSON, YAML, and TOML files. Built with Rust and egui for a native, responsive experience.
+
+Topics
+
+editor
+
+markdown
+
+rust
+
+productivity
+
+yaml
+
+json
+
+cross-platform
+
+wysiwyg
+
+text-editor
+
+native-app
+
+egui
+
+Resources
+
+Readme
+
+License
+
+MIT license
+
+Contributing
+
+Contributing
+
+Uh oh!
+
+There was an error while loading.
+Please reload this page
+.
+
+Activity
+
+Stars
+
+793
+
+stars
+
+Watchers
+
+5
+
+watching
+
+Forks
+
+19
+
+forks
+
+Report repository
+
+Releases
+
+8
+
+Ferrite v0.2.5-hotfix.1
+
+Latest
+
+Jan 18, 2026
+
++ 7 releases
+
+Sponsor this project
+
+Sponsor
+
+Uh oh!
+
+There was an error while loading.
+Please reload this page
+.
+
+Learn more about GitHub Sponsors
+
+Packages
+
+0
+
+No packages published
+
+Contributors
+
+7
+
+Languages
+
+Rust
+
+99.0%
+
+Other
+
+1.0%
+
+---
+
+## Metadata
+
+**Source:** [https://github.com/OlaProeis/Ferrite](https://github.com/OlaProeis/Ferrite)
+**Type:** github-repo
+**Extracted:** 2026-01-18T12:45:29.421560
+**Extractor:** fallback
+**Word Count:** 2174
